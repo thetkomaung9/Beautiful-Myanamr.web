@@ -1,0 +1,85 @@
+body{
+   text-align:center;
+   background-color:#000000;
+}
+.cap{
+ font-size:50px;
+ font-weight:bold;
+ text-shadow:20px 20px 10px; 
+}
+.ft{
+ font-weight:bold;
+ color:white; 
+}
+.menu1{
+ 
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+ display:block;
+}
+.sub{
+ float:left;  
+}
+a:link,a:visited{
+ color:white;
+ background-color:rgba(0,0,0,0.5);
+ font-weight:bold;
+ text-transform:uppercase;
+ text-decoration:none;
+ padding:5px;
+ border-radius:5px; 
+}
+a:hover,a:active{
+ background-color:rgba(0,0,0,0.9);
+}
+#header{
+
+   background: rgb(18,255,0);
+background: radial-gradient(circle, rgba(18,255,0,1) 0%, rgba(18,255,0,1) 0%, rgba(0,0,0,1) 100%);
+
+      padding:15px;
+   text-align:center;
+}
+#content{
+   
+   background-color:skyblue;
+   overflow:auto;
+}
+#left{
+   
+  
+   float:left;
+   width:20%;
+}
+#center{
+
+   
+   float:left;
+   width:60%;
+}
+#right{
+ 
+  
+   float:left;
+   width:20%;
+}
+#footer{
+ 
+   text-align:center;
+   padding:10px;
+   margin-top:7px;
+   background-color:green;  
+}
+/* CSS_3 Simple Resopnsive Code */
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
