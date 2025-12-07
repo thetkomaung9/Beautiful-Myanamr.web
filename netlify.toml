@@ -7,12 +7,11 @@
   # Publish directory (root of the repository)
   publish = "."
 
-# Redirect rules
+# Handle 404 errors - show index.html for not found pages
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
-  force = false
+  status = 404
   
 # Headers for better security and performance
 [[headers]]
